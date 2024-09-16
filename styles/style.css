@@ -16,10 +16,15 @@ body{
 h1{
     font-size: 75px;
     font-family: "Playwrite CU", cursive;
+    /* font-style: oblique; */
+    font-style: italic;
     /* background-color: rgb(57, 55, 55); */
     color: rgb(0, 0, 0);
     text-decoration: underline;
     text-decoration-color: green;
+    /* text-decoration-color: black; */
+    /* text-shadow: greenyellow 4px 1px; */
+    text-shadow: rgb(70, 191, 52) 4px 1px
 }
  main{
     /* background-color: rgba(35, 28, 28, 0.8); */

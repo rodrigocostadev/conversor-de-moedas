@@ -20,6 +20,7 @@
 @media screen and (max-width:1000px){
     h1{
         font-size: 40px;
+        text-shadow: rgb(70, 191, 52) 2px 1px
     }
     select{
         min-width: 5px;
