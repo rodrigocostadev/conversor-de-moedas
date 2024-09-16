@@ -332,7 +332,7 @@ function convert(){
         console.log("o resultado foi "+ result)
     }else if(select1 == "Ethereum" && select2 == "Real"){
         n1 = Object(ethereum.ethereum)
-        n2 = Object(bitcoin.real)
+        n2 = Object(ethereum.real)
         result = n1 * n2
         console.log("o resultado foi "+ result)
     }
