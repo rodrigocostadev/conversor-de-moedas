@@ -14,39 +14,41 @@
         <h1>Conversor de Moedas</h1>
         <div id="box">
             <div id="div-input">
-                <input type="number">
+                <input type="number" id="numberInput">
             </div>
             <div id="option-box">
                 <div id="option-box-column1">
                     <span>De</span>
-                    <select>
+                    <select id="select-1">
                         <option> US Dollar</option>
                         <option> Euro</option>
                         <option> Real</option>
                         <option> Yuan</option>
-                        <option> Ien</option>
+                        <option> Iene</option>
                         <option> Bitcoin</option>
                         <option> Ethereum</option>
                     </select>
                 </div>
                 <div id="option-box-column2">
                     <span>Para</span>
-                    <select>
+                    <select id="select-2">
                         <option> Real</option>
                         <option> US Dollar</option>
                         <option> Euro</option>
                         <option> Yuan</option>
-                        <option> Ien</option>
+                        <option> Iene</option>
                         <option> Bitcoin</option>
                         <option> Ethereum</option>
                     </select>
                 </div>
             </div>
             <div id="buttons-div">
-                <button>Converter</button>
+                <button onclick="convert()">Converter</button>
             </div>
         </div>
     </main>
+
+    <script src="./scripts/script.js"></script>
     
 </body>
 </html>
